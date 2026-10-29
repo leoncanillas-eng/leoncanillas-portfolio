@@ -114,7 +114,8 @@ h1 span {
 }
 
 .projects h2,
-.contact h2 {
+.contact h2,
+.services h2 {
   font-size: clamp(32px, 4vw, 44px);
   margin-bottom: 18px;
 }
@@ -276,6 +277,16 @@ footer {
   line-height: 1.7;
 }
 
+.services > .eyebrow,
+.services > h2,
+.services > .section-description {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  left: 0;
+}
 @media (max-width: 768px) {
   .services .project-card {
     grid-template-columns: 1fr;
