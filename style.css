@@ -293,6 +293,13 @@ footer {
   }
 }
 
+
+.services {
+  padding: 90px 8%;
+  background: #f1f5f1;
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
   .services .project-card {
     grid-template-columns: 1fr;
