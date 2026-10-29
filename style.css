@@ -236,3 +236,41 @@ footer {
     padding: 75px 6%;
   }
 }
+
+
+/* Services section */
+.services {
+  padding: 80px 0;
+}
+
+.services .project-card {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.services .project-info {
+  background: #ffffff;
+  border: 1px solid #dce6dd;
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.services .project-info h3 {
+  color: #244b3b;
+  margin-bottom: 12px;
+}
+
+.services .project-info p {
+  color: #5f6d64;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .services .project-card {
+    grid-template-columns: 1fr;
+  }
+}
