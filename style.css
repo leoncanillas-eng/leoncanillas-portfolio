@@ -319,11 +319,33 @@ footer {
   position: relative;
   left: 0;
 }
+
 @media (max-width: 768px) {
   .services .project-card {
     grid-template-columns: 1fr;
   }
+
+  .navbar {
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 20px 0;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .nav-links .nav-link {
+    padding: 10px 14px;
+  }
 }
+
 
 /* Align Services heading with Projects content */
 .services > .eyebrow,
