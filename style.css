@@ -308,21 +308,26 @@ footer {
 
 
 /* About section */
+
 .about {
   padding: 90px 8%;
-  background: #ffffff;
-  box-sizing: border-box;
+  margin: 0;
   width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
 }
 
 .about h2 {
   font-size: clamp(32px, 4vw, 44px);
-  margin-bottom: 18px;
+  margin: 0 0 18px 0;
 }
 
 .about .section-description {
   max-width: 750px;
+  margin-left: 0;
+  margin-right: 0;
   line-height: 1.8;
   color: #5f6d64;
 }
+
 
