@@ -292,3 +292,16 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Align Services heading with Projects content */
+.services > .eyebrow,
+.services > h2,
+.services > .section-description {
+  margin-left: 0;
+  text-align: left;
+}
+
+.services {
+  padding-left: 8%;
+  padding-right: 8%;
+}
